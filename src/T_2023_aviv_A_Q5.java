@@ -47,15 +47,17 @@ public class T_2023_aviv_A_Q5 {
         }
         return value;
     }
-//    Part C --> what is complicate of Part A abd Part B
-//    answer --> Part A is complicate of o(n) --> Part B is o(n2)
+//    Part C --> what is complications of Part A abd Part B
+//    answer --> Part A is complications of o(n) --> Part B is o(n2)
 
     public static void main(String[] args) {
         System.out.println("T_2023_aviv_A_Q5");
 // Node list of --> 4 9 3 7 9 9 7 7 2 9
         Node<Integer> n = new Node<>(4, new Node<>(9, new Node<>(3, new Node<>(7, new Node<>(9, new Node<>(9, new Node<>(7, new Node<>(7, new Node<>(2, new Node<>(9))))))))));
         System.out.println("List : " + n);
+//        Part A
 //        System.out.println(distance(n, 3));
-        System.out.println(minDistanceValue(n));
+//        Part B
+        System.out.println("number of smaller space is  : "+minDistanceValue(n));
     }
 }
